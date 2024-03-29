@@ -30,9 +30,7 @@ int padroes(int n, int m){
     // }
     // if(n == 7){
     //     return padroes(n, m - 1) + 2 * (m - 1) + 2 * (m - 1) + m;
-    // }
-    
-    return 0;
+    // }    
 }
 
 int main(){
