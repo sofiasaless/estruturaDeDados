@@ -12,6 +12,13 @@ struct Carro
 
 int main(){
     Carro car1, car2;
+    Carro c1;
+
+    c1.nome = "Ferrari";
+    c1.cor = "amarelo";
+    c1.pot = 100;
+    c1.velMax = 100;
+
 
     car1.nome = "Fuscao";
     car1.cor = "preto";
@@ -35,6 +42,12 @@ int main(){
     cout << car2.cor << endl;
     cout << car2.pot << endl;
     cout << car2.velMax << endl;
+
+    cout << "INFO CARRO 3: " << endl;
+    cout << c1.nome << endl;
+    cout << c1.cor << endl;
+    cout << c1.pot << endl;
+    cout << c1.velMax << endl;
 
 
     return 0;
